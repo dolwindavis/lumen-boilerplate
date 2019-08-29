@@ -10,7 +10,8 @@
 | and give it the Closure to call when that URI is requested.
 |
 */
-
+//new one
 $router->get('/', function () use ($router) {
     return $router->app->version();
 });
+
